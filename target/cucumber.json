@@ -1,0 +1,124 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-19T03:41:46.479Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1958594200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefination.beforeRun()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User should be able to login with valid credentials",
+        "description": "",
+        "id": "login-to-techfios-login-page-with-data-extrated-from-database;user-should-be-able-to-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1139418000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on the Techfios login page",
+            "match": {
+              "location": "LoginStepDefination.User_is_on_the_Techfios_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3400494200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters \"Username\" from techfios database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Username",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_from_techfios_database(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3109621200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters \"Password\" from techfios database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_from_techfios_database(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4569451900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clikcks on signin button",
+            "match": {
+              "location": "LoginStepDefination.user_clikcks_on_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 219761900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should land on dashboard page",
+            "match": {
+              "location": "LoginStepDefination.user_should_land_on_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DbFeature"
+          },
+          {
+            "name": "@DbScenerio1"
+          }
+        ]
+      }
+    ],
+    "name": "Login to Techfios Login page with data extrated from database",
+    "description": "",
+    "id": "login-to-techfios-login-page-with-data-extrated-from-database",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/LoginWithdataFromDatabse.feature",
+    "tags": [
+      {
+        "name": "@DbFeature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
